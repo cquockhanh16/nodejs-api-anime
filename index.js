@@ -34,7 +34,7 @@ app.get('/v1', (req, res, next) => {
                 const image = $(this).find('a > img').attr('data-src')
                 thumnails.push({
                     name: name,
-                    url: "http://localhost:8080/v1" + url.split('/wiki')[1],
+                    url: "https://api-anime-ajqq.onrender.com/v1" + url.split('/wiki')[1],
                     image: image
                 })
                 
